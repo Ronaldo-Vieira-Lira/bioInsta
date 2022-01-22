@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #131219;
+}
+main { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 30px;
+}
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+#header h3 {
+    font-family: 'Roboto Mono', monospace;
+    color: #8C8987;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 600px;
+    gap: 20px;
+    padding: 10px;
+}
+.btnBio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 280px;
+    height: 130px;
+    padding: 8px;
+    cursor: pointer;
+    border: 2px solid #131219;
+    border-radius: 5px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+}
+.btnBio:hover {
+    border-color: aliceblue;
+}
+#insta {
+    background: linear-gradient( 
+        45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100% 
+    );
+}
+#linkedin {
+    background: linear-gradient( 90deg, rgba(111, 139, 231, 1) 0%, rgba(47, 41, 157, 1) 100% );
+}
+
+#git {
+    background: linear-gradient( 261.65deg, #202225 0%, #2d2f31 100% );
+}
+#portifolio {
+    background: linear-gradient(90deg, rgba(2,73,89,1) 0%, rgba(1,28,38,1) 100%);
+}
+#gmail{
+    width: 100%;
+    background: linear-gradient(90deg, rgba(140,3,39,1) 0%, rgba(217,67,107,1) 100%);;
+}
