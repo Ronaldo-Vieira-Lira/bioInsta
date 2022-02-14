@@ -14,6 +14,7 @@
 body {
     background: #131219;
 }
+
 main { 
     display: flex;
     flex-direction: column;
@@ -23,38 +24,45 @@ main {
     padding: 30px;
     gap: 30px;
 }
+
 #header {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
 }
+
 #header h1 {
     font-size: 2.1rem;
     font-family: 'Raleway', sans-serif;
     color: #fff;
 }
+
 #header h3 {
     font-family: 'Roboto Mono', monospace;
     color: #c9c9c9;
 }
+
 #header img {
     width: 150px;
     border-radius: 50%;
 }
+
 #container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 640px;
-    gap: 20px;
+    max-width: 660px;
     padding: 10px;
+    gap: 1rem;
 }
+
 .btnBio {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8px;
+    margin: 5px;
     width: 300px;
     height: 130px;
     padding: 8px;
@@ -66,14 +74,17 @@ main {
     font-weight: 600;
     color: #fff;
 }
+
 .btnBio:hover {
     border-color: aliceblue;
 }
+
 #insta {
     background: linear-gradient( 
         45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100% 
     );
 }
+
 #linkedin {
     background: linear-gradient( 90deg, rgba(111, 139, 231, 1) 0%, rgba(47, 41, 157, 1) 100% );
 }
@@ -81,12 +92,15 @@ main {
 #git {
     background: linear-gradient( 261.65deg, #202225 0%, #2d2f31 100% );
 }
+
 #portifolio {
     background: linear-gradient(90deg, rgba(2,73,89,1) 0%, rgba(1,28,38,1) 100%);
 }
+
 #linkGmail {
     width: 100%;
 }
+
 #gmail  {
     width: 100%;
     background: linear-gradient(90deg, rgba(140,3,39,1) 0%, rgba(217,67,107,1) 100%);;
